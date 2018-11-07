@@ -31,11 +31,19 @@ public class Clothes{
 	    this.size = size;
 	}
 	
-	public String getColoe(){
+	public String getColor(){
 		return this.color;
 	}
 	
 	public void setColor(String color){
 		this.color = color;
+	}
+	
+	public int getPrice(){
+		return this.price;
+	}
+	
+	public void setPrice(int price){
+		this.price = price;
 	}
 }
