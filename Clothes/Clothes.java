@@ -4,6 +4,7 @@ public class Clothes{
     
 	private String size;
 	private String color;
+	private int price;
 	
 	public Clothes(){}
 	
@@ -15,6 +16,11 @@ public class Clothes{
 	public Clothes(String size,String color){
 		this(size);
 		setColor(color);
+	}
+	
+	public Clothes(String size,String color,int price){
+		this(color);
+		setPrice(price);
 	}
 	
 	public  String getSize(){
